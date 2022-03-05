@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-05T13:48:35 EST" name="Default suite" finished-at="2022-03-05T13:48:45 EST" duration-ms="9873">
+    <groups>
+    </groups>
+    <test started-at="2022-03-05T13:48:35 EST" name="Default test" finished-at="2022-03-05T13:48:45 EST" duration-ms="9873">
+      <class name="tests.MyAccountLogIn">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.MyAccountLogIn@316bcf94]" started-at="2022-03-05T13:48:35 EST" name="beforeTest" finished-at="2022-03-05T13:48:39 EST" duration-ms="4297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="invalidUsernamePassword()[pri:0, instance:tests.MyAccountLogIn@316bcf94]" started-at="2022-03-05T13:48:39 EST" name="invalidUsernamePassword" finished-at="2022-03-05T13:48:42 EST" duration-ms="3050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernamePassword -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.MyAccountLogIn@316bcf94]" started-at="2022-03-05T13:48:42 EST" name="beforeTest" finished-at="2022-03-05T13:48:42 EST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="validUsernamePassword()[pri:0, instance:tests.MyAccountLogIn@316bcf94]" started-at="2022-03-05T13:48:42 EST" name="validUsernamePassword" finished-at="2022-03-05T13:48:45 EST" duration-ms="2383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernamePassword -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.MyAccountLogIn@316bcf94]" started-at="2022-03-05T13:48:45 EST" name="afterTest" finished-at="2022-03-05T13:48:45 EST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.MyAccountLogIn -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
